@@ -69,7 +69,7 @@ function Contact() {
       <div style={rowStyle}>
         <span role="img" aria-label="email">📧</span>
         dev.work.jade@google.com
-        <button style={copyBtn} onClick={() => handleCopy('dev.work.jade@google.com', 'email')} title="복사">
+        <button style={copyBtn} onClick={() => handleCopy('dev.work.jade@gmail.com', 'email')} title="복사">
           📋
         </button>
         {copied === 'email' && <span style={{color:'#6dd5ed', fontSize:'0.98em'}}>복사됨!</span>}
