@@ -56,7 +56,7 @@ function Contact() {
     setTimeout(() => setCopied(''), 1200);
   };
   const qrValue = JSON.stringify({
-    email: 'dev.work.jade@google.com',
+    email: 'dev.work.jade@gmail.com',
     phone: '010-3078-6533',
     github: 'https://github.com/judgerTH',
     blog: 'https://blog.naver.com/disney1026',
