@@ -68,7 +68,7 @@ function Contact() {
     <section style={cardStyle}>
       <div style={rowStyle}>
         <span role="img" aria-label="email">📧</span>
-        dev.work.jade@google.com
+        dev.work.jade@gmail.com
         <button style={copyBtn} onClick={() => handleCopy('dev.work.jade@gmail.com', 'email')} title="복사">
           📋
         </button>
