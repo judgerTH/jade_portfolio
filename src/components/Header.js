@@ -48,7 +48,7 @@ function Header() {
   return (
     <header style={headerStyle}>
       <div style={mainTitle}>Backend 개발자 이태현</div>
-      <div style={subTitle}>실패를 경험 삼아 성장하며, 안정적인 서비스 운영을 고민하는 개발자입니다.</div>
+      {/*<div style={subTitle}>실패를 경험 삼아 성장하며, 안정적인 서비스 운영을 고민하는 개발자입니다.</div>*/}
       <div style={{...aboutMeStyle, opacity: show ? 1 : 0}}>
         💪🏻 실패를 경험 삼아 성장하며, 안정적인 서비스 운영을 고민하는 개발자입니다.
       </div>
