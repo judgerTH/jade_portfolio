@@ -51,7 +51,6 @@ function Header() {
       {/*<div style={subTitle}>실패를 경험 삼아 성장하며, 안정적인 서비스 운영을 고민하는 개발자입니다.</div>*/}
       <div style={{...aboutMeStyle, opacity: show ? 1 : 0}}>
         💪🏻 실패를 경험 삼아 성장하며, 안정적인 서비스 운영을 고민하는 개발자입니다.
-        🚀 CI/CD 자동 배포 테스트 성공 (2025-12-28)
       </div>
     </header>
   );
