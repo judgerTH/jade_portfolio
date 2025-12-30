@@ -62,6 +62,19 @@ function OtherExperience() {
       <ul style={ulStyle}>
         <li>제 9회 대학생이간다 공모전 - 천안시장상</li>
         <li>SW융합클러스터 2.0 디지털 콘텐츠 세종 DX 해커톤 - 고려대학교 세종산학협력단장상</li>
+        <li>멋쟁이사자처럼 대학 13기 해커톤 멘토</li>
+        <li style={{
+              fontSize: '0.98rem',
+              color: '#b5d6e6',
+              marginTop: '0.4rem',
+              marginLeft: '1.2rem',     // 🔹 들여쓰기 핵심
+              listStyle: 'none',        // 🔹 점 제거
+              lineHeight: '1.6',
+            }}>
+          해커톤 기간 동안 팀별 아이디어 구체화 및 백엔드 구조 설계에 대한 피드백을 제공하며,
+          <br></br>초심자 질문에 대응하는 멘토 역할을 수행했습니다.
+        </li>
+
       </ul>
       <div style={imgRow}>
         <a href={process.env.PUBLIC_URL + '/그림6_대외활동사진1.png'} target="_blank" rel="noopener noreferrer">
