@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaReact, FaPython, FaAws, FaDocker, FaGithub, FaCloud } from 'react-icons/fa';
-import { SiSpringboot, SiMysql, SiOracle, SiFlask } from 'react-icons/si';
+import { SiSpringboot, SiMysql, SiOracle, SiFlask, SiElasticsearch, SiPostgresql, SiRedis } from 'react-icons/si';
 
 const sectionStyle = {
   background: 'rgba(36, 39, 46, 0.95)',
@@ -52,6 +52,9 @@ function Skills() {
         <span style={tag}><SiSpringboot size={22}/>SpringBoot</span>
         <span style={tag}><SiFlask size={22}/>Flask</span>
         <span style={tag}><FaPython size={22}/>Python</span>
+        <span style={tag}><SiElasticsearch size={22}/>Elasticsearch</span>
+        <span style={tag}><SiPostgresql size={22}/>PostgreSQL</span>
+        <span style={tag}><SiRedis size={22}/>Redis</span>
         <span style={tag}><SiOracle size={22}/>Oracle</span>
         <span style={tag}><SiMysql size={22}/>MySQL</span>
         <span style={tag}><FaAws size={22}/>AWS</span>

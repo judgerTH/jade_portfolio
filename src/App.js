@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import Introduce from './components/Introduce';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Certifications from './components/Certifications';
 import OtherExperience from './components/OtherExperience';
 import Education from './components/Education';
 import NavigationBar from './components/NavigationBar';
@@ -62,6 +63,8 @@ function App() {
           <div id="skills" style={sectionGap}><Skills /></div>
           <hr style={divider} />
           <div id="projects" style={sectionGap}><Projects /></div>
+          <hr style={divider} />
+          <div id="certifications" style={sectionGap}><Certifications /></div>
           <hr style={divider} />
           <div id="experience" style={sectionGap}><OtherExperience /></div>
           <hr style={divider} />

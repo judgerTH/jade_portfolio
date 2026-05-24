@@ -42,7 +42,8 @@ const toggleBtn = {
 const sections = [
   { id: 'introduce', label: '소개' },
   { id: 'skills', label: '스킬' },
-  { id: 'projects', label: '프로젝트' },
+  { id: 'projects', label: '경력·프로젝트' },
+  { id: 'certifications', label: '자격증' },
   { id: 'experience', label: '경험' },
   { id: 'education', label: '교육' },
 ];
