@@ -1,0 +1,7 @@
+services:
+  portfolio:
+    container_name: jade-portfolio
+    build: .
+    restart: always
+    ports:
+      - "127.0.0.1:3000:80"
